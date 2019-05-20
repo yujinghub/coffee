@@ -1,0 +1,94 @@
+*{margin: 0;padding: 0;}
+ol,ul,li{list-style: none;}
+a{text-decoration: none;}
+i,em{font-style: normal;}
+h1,h2,h3,h4,h5,h6{font-size: 16px;font-weight: 500;}
+b,strong{font-weight: normal;}
+#headerWrap{
+	height: 80px;
+	background: darkcyan;
+}
+.header{
+	height: 80px;
+	width: 1132px;
+	background: red url(../images/logo.png)no-repeat 3px 0;
+	margin: 0 auto;
+}
+.header ul{
+	margin-left: 388px;
+}
+.header li{
+	float: left;
+	font-size: 18px;
+	line-height: 18px;
+	border-bottom: 1px solid;
+	margin-right: 36px;
+	position: relative;
+}
+.header li span{
+	display: block;
+	height: 175px;
+	width: 120px;
+	background: orange;
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	transition: 0.3s;
+	display: none;
+	z-index: -1;
+}
+#headerWrap li:nth-child(2):hover span{
+	display: block;
+}
+#headerWrap li span a{
+	font-size: 18px;
+	line-height: 18px;
+	margin-top: 30px;
+	color: #000000;
+	background: none;
+	
+}
+#headerWrap li:nth-child(2):hover span{
+	top: 80px;
+}
+#headerWrap li span a{
+	font-size: 18px;
+	line-height: 18px;
+	margin-top: 30px;
+	color: #000000;
+	background: none;
+}
+.header li:nth-child(3) span{
+	position: absolute;
+	top: 80px;
+	left: 0;
+	z-index: -1;
+}
+#headerWrap li:nth-child(3):hover span{
+	display: block;
+}
+.header li:nth-child(4) span{
+	position: absolute;
+	top: 80px;
+	left: 0;
+	z-index: -1;
+}
+#headerWrap li:nth-child(4):hover span{
+	display: block;
+}
+
+
+
+.header a{
+	display: block;
+	color: #333333;
+	line-height: 79px;
+	width: 120px;
+	text-align: center;
+}
+.header a:hover{
+	background: url(../images/border.jpg) no-repeat bottom;
+}
+.header li:nth-child(5){
+	margin-right: 0;
+}

@@ -1,0 +1,266 @@
+#headerWrap{
+	height: 80px;
+	background: darkcyan;
+}
+.header{
+	height: 80px;
+	width: 1132px;
+	background: red url(../images/logo.png)no-repeat 3px 0;
+	margin: 0 auto;
+}
+.header ul{
+	margin-left: 388px;
+}
+.header li{
+	float: left;
+	font-size: 18px;
+	line-height: 18px;
+	/*border-bottom: 1px solid;*/
+	margin-right: 36px;
+	position: relative;
+}
+#headerWrap li span{
+	display: block;
+	height: 220px;
+	width: 120px;
+	/*background: #352a38;*/
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	transition: 0.3s;
+	display:none;
+	z-index: 1;
+}
+
+#headerWrap li:nth-child(2):hover span{
+	display: block;
+}
+#headerWrap li span a{
+	font-size: 18px;
+	line-height: 18px;
+	margin-top: 30px;
+	color: #FFFFFF;
+	background: none;
+}
+#headerWrap li span a:hover{
+	color: red;
+}
+.header li:nth-child(3) span{
+	position: absolute;
+	top: -100px;
+	left: 0;
+	z-index: -1;
+}
+#headerWrap li:nth-child(3):hover span{
+	display: block;
+}
+.header li:nth-child(4) span{
+	position: absolute;
+	top: -100px;
+	left: 0;
+	z-index: -1;
+}
+#headerWrap li:nth-child(4):hover span{
+	display: block;
+}
+
+.header a{
+	display: block;
+	color: #333333;
+	line-height: 80px;
+	width: 120px;
+	text-align: center;
+}
+.header a:hover{
+	background: url(../images/border.jpg) no-repeat bottom;
+}
+.header li:nth-child(5){
+	margin-right: 0;
+}
+#bannerWrap{
+		height: 400px;
+		/*background: #ccc;*/
+}
+.banner{
+		/*border: 1px solid #000;*/
+		height: 400px;
+		width: 1135px;
+		margin: 0 auto ;
+		/*overflow: hidden;*/
+		position: relative;
+}
+.banner img{
+		display: block;
+		position: absolute;
+		left: 50%;
+		margin-left: -960px;
+}
+#capWrap{
+		height: 651px;
+		/*background: #747474;*/
+}
+.cap{
+		height: 651px;
+		width: 1110px;
+		/*background: fuchsia;*/
+		margin: 0 auto;
+}
+.capTop{
+		height: 70px;
+		width: 995px;
+		/*background: pink;*/
+		border-bottom: 1px solid #d5d5d5;
+		margin-left: 56px;
+		overflow: hidden;
+}
+.capTopleft{
+		height: 70px;
+		width: 332px;
+		/*background: red;*/
+		float: left;
+}
+.capTopleft ul{
+		float: left;
+		margin-top: 39px;
+}
+.capTopleft li:nth-child(1){
+		font-size: 15px;
+		line-height: 15px;
+		color: #333333;
+}
+.capTopleft li:nth-child(2){
+		font-size: 9px;
+		line-height: 9px;
+		color: #999999;
+		margin-top: 3px;
+}
+.capTopleft span{
+		font-size: 9px;
+		width: 2px;
+		color:#866961;
+		padding-right: 7px;
+}
+.capTopleft p:nth-child(2){
+		font-size: 9px;
+		line-height: 9px;
+		color: #999999;
+		margin-top: 3px;
+}
+
+.capTopright{
+		/*border: 1px solid #000000;*/
+		height: 70px;
+		width: 161px;
+		float: right;
+}
+.capTopright li{
+		float: left;
+		font-size: 14px;
+		line-height: 14px;
+		margin-top: 51px;
+}
+.capTopright li:nth-child(1)  a{
+		color: #333333;
+}
+.capTopright li:nth-child(2)  a{
+		color: #999999;
+}
+.capTopright li:nth-child(3)  a{
+		color: #999999;
+}
+.capBottom{
+		height: 579px;
+		width: 1110px;
+		/*background: red;*/
+		overflow: hidden;
+}
+.capBottom dl{
+		border: 1px solid #000;
+		height: 496px;
+		width: 996px;
+		margin-top: 22px;
+		margin-left: 56px;
+		position: relative;
+		background: url(../images/ph.jpg) no-repeat 32px 392px,
+		url(../images/ad.jpg) no-repeat 311px 392px,
+		url(../images/em.jpg) no-repeat 655px 392px;
+		
+}
+.capBottom dl ul{
+		float: left;
+		margin-left: 86px;
+		margin-top: 57px;
+}
+.capBottom dl ul:nth-child(2){
+		margin-left: 108px;
+}
+.capBottom dl ul:nth-child(2) span{
+		top: 401px;
+		left: 356px;
+}
+.capBottom dl ul:nth-child(3) span{
+		top: 401px;
+		left: 709px;
+}
+.capBottom dl ul:nth-child(3){
+		margin-left: 102px;
+}
+.capBottom dl span{
+		display: block;
+		height: 9px;
+		width: 2px;
+		background: #866961;
+		position: absolute;
+		top: 401px;
+		left: 86px;
+
+}
+.capBottom dl li:nth-child(1){
+		font-size: 18px;
+		line-height: 18px;
+		color: #333333;
+		font-weight: 800;
+		margin-left: 6px;
+}
+.capBottom dl li:nth-child(2){
+		font-size: 11px;
+		line-height: 11px;
+		color: #999999;
+		margin-top: 4px;
+}
+.capBottom dl li:nth-child(3){
+		font-size: 12px;
+		line-height: 12px;
+		color: #333333;
+		margin-top: 32px;
+}
+.capBottom dl li:nth-child(4){
+		font-size: 13px;
+		line-height: 13px;
+		color: #999999;
+		margin-top: 12px;
+}
+#footerWrap{
+	height: 80px;
+	background: #866961 ;
+}
+.footer{
+	height: 80px;
+	width: 1132px;
+	background:url(../images/logo2.jpg) no-repeat 806px 21px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.copyright{
+	height: 15px;
+	width: 1132px;
+	margin-top: 40px;
+	5background: red;
+	font-size: 13px;
+	line-height:13px;
+	line-height: 15px;
+	color: #f0eeed;
+}
+.copyright p{
+	margin-left: 23px;
+}
